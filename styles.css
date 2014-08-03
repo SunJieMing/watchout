@@ -3,15 +3,40 @@
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
 
-.enemies {
+body {
+  background-image : url("http://fc07.deviantart.net/fs71/f/2013/002/4/7/north_american_nebula_wall02_by_maul555-d5q5923.jpg");
+  background-size : cover;
+}
+
+.asteroid {
+  border-radius: 50%;
+  position: absolute;
 
 }
 
 .container {
-  width: 100%;
-  height: 1500px;
+
 }
 
 #player {
-/*  border-color: green;
-*/}
+}
+
+.scoreboard {
+  background-color: rgba(14, 57, 83, 0.8);
+  border-radius: 3px;
+  color: rgb(255, 250, 247);
+  font-weight: 100;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  padding : 0.45%;
+  display: inline-block;
+  box-shadow: inset 0 0 0 1px #60707E;
+  z-index: 100;
+}
+
+.button {
+  float: left;
+  font-family: sans-serif;
+  margin-left: 9.5%;
+}
